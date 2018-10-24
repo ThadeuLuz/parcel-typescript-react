@@ -1,7 +1,7 @@
 {
   "name": "parcel-typescript-react",
   "version": "0.1.0",
-  "description": "",
+  "description": "An opinionated boilerplate with Parcel bundler, TypeScript and React that includes Material-UI, linting and VSCode configurations.",
   "main": "index.js",
   "scripts": {
     "start": "parcel serve src/index.html --open --no-autoinstall",
@@ -10,13 +10,23 @@
     "build2": "parcel build --experimental-scope-hoisting ./src/index.html",
     "watch": "parcel watch src/index.html"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThadeuLuz/parcel-typescript-react.git"
+  },
   "husky": {
     "hooks": {
       "pre-commit": "pretty-quick --staged"
     }
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "Parcel",
+    "React",
+    "TypeScript",
+    "Material-UI",
+    "Boilerplate"
+  ],
+  "author": "Thadeu Luz",
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^3.3.0",
