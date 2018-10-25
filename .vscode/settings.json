@@ -1,12 +1,12 @@
 {
-  "tslint.enable": true,
-  "editor.formatOnSave": true,
   "[javascript]": {
     "editor.formatOnSave": false
   },
-  "tslint.autoFixOnSave": true,
-  "tslint.alwaysShowStatus": true,
-  "typescript.implementationsCodeLens.enabled": true,
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
   "prettier.disableLanguages": ["js"],
-  "files.autoSave": "onFocusChange"
+  "tslint.alwaysShowStatus": true,
+  "tslint.autoFixOnSave": true,
+  "tslint.enable": true,
+  "typescript.implementationsCodeLens.enabled": true
 }
