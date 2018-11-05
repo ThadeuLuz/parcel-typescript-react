@@ -8,5 +8,6 @@ export default createMuiTheme({
     error: red,
     primary: amber,
     secondary: pink
-  }
+  },
+  typography: { useNextVariants: true }
 });
